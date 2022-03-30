@@ -1,0 +1,588 @@
+/* css rest */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: content-box;
+}
+body
+{
+    color: #1d2434;
+}
+.container
+{ 
+   background-color: #D5B981;
+   display:flex;
+   justify-content: space-between;
+
+  
+} 
+ 
+.left h1
+{   
+  
+    color: #1d2434;
+    font-size: 48px;    
+    width: 70%;
+}
+.left h3
+{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: #1d2434;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 50px ;
+  
+}
+.left input {
+    width:200px;
+    background-color: transparent; 
+    border-color: #1d2434; 
+    height: 60px;
+   
+    font-size: medium;
+    
+    
+}
+.About 
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+    align-items: center;
+  
+    
+}
+.right
+{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0px 50px;
+
+
+}
+.right h4
+{
+    font-size: 12px;
+    font-weight: lighter;
+    color: grey;
+    margin: 10px 0 ;
+    padding: 0 5px;
+    
+}
+.right h2
+{ 
+    font-size: 60px;
+}
+.right p 
+{ 
+    width: 60%;
+    margin: 10px 10px;
+
+
+}
+.image-exp  img
+{
+ width: 500px;
+box-shadow :-32px -32px 0px   #1d2434; 
+margin: 80px;
+outline: 1px solid white;
+    outline-offset: -6px;
+
+ 
+}
+
+.right input
+{
+    width:200px;
+    background-color: transparent; 
+    border-color: #1d2434; 
+    height: 60px;
+   padding: 0 20px;
+    font-size: medium;
+}
+.right :last-child 
+{
+ margin-top: 50px;
+} 
+.Services
+{ 
+   display: flex;
+} 
+
+.top h4 
+{
+    font-size: 12px;
+color: gray;
+text-align: center;
+}
+.top h1 
+{
+    font-size: 60px;
+    text-align: center;
+    
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+   width: 20%;
+    background-color: gainsboro;
+    justify-content: space-between;
+    margin: 50px;
+  
+    
+}
+.text h3
+{
+    text-align: center;
+    margin: 20px;
+    
+}
+.text
+{
+    
+}
+
+.text input 
+{
+    width:180px;
+    background-color: transparent; 
+    border-color: #1d2434; 
+    height: 45px;
+    justify-content: center;
+    font-size: medium;
+    margin: 20px 85px;
+  
+}
+.text p 
+{
+    margin: 20px 20px ;
+    text-align: center;
+}
+.services-detail
+{
+    display: flex;
+  justify-content: center;
+
+}
+.services-detail img 
+{
+    outline: 1px solid white;
+  outline-offset: -8px;
+}
+.Services
+{
+    margin-top: 10px;
+}
+.payement 
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.details 
+{
+    display: flex;
+    
+    justify-content: space-between;
+    background-color: gainsboro;
+   
+
+} 
+.details h3 
+{
+
+}.image
+{
+    margin: 210;
+}
+price {
+    margin-top: 10%;
+    text-align: center;
+    width: 80%;
+}
+.prix{
+    display:flex;
+    background: rgb(236, 234, 234);;
+    margin: 1%;
+    width: 20%;
+   
+}
+
+.prix-image{
+ 
+
+    outline: 1px solid white;
+    outline-offset: -6px;
+    
+}
+
+.price-name{
+    font-size:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.price-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.circle-image img
+{
+    border-radius: 50%;
+   display: block;
+   align-items: flex-start;
+   padding: 20px 0px;
+
+}
+.comment p 
+{
+   
+      width: 80%;
+    color: rgb(255, 255, 255);
+   
+}
+.comment h3
+{
+    font-weight: bolder;
+    color: #D5B981;
+    padding: 10px 0px;
+}
+.comment h4
+{
+       font-weight: bolder ;
+       color: gray;
+    
+}
+.community
+
+{
+   
+    background-image: url(testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    font-size: 12px;
+
+    font-weight: bold;
+   
+    font-family: 'Steelfish Rg', 'helvetica neue',
+                helvetica, arial, sans-serif;
+  
+   height: 50%; 
+   background-size:contain; ;
+
+    
+    
+}
+.feedback
+{
+ display: flex;
+ flex-direction: column;
+ padding: 300px ;
+ align-items: center;
+ font-size: larger;
+ width: 80%;
+}
+.comment
+{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.buttons input 
+{
+    
+    border: 1px outset transparent;
+    background-color: #1d2434;
+    height:50px;
+    width:50px;
+    cursor:pointer;
+    color: #D5B981;
+    font-size: larger;
+    font-weight: bolder;
+    
+    
+   
+}
+.buttons 
+
+{
+ 
+display: flex;
+flex-direction: row; 
+
+}
+.button1
+{
+    padding: 10px;
+}
+.button2
+{
+    padding: 10px;
+}
+.button3
+{
+    
+ display: flex;
+ justify-content: flex-end;
+ margin: -10px;
+    
+}
+.team 
+{
+    padding: 20px;
+}
+.id
+{
+    display: flex;
+    flex-direction: column;
+   width: 15%;
+   
+    background-color: gainsboro;
+    position: absolute;
+   text-align: center;
+    
+}
+.box-1
+{
+    width: 120px;
+    height: 60px;
+  background-color: gainsboro;
+  padding: 50px;
+ margin-top: -80px;
+
+;
+margin-left: 30px;
+  position: absolute;
+}
+.Barber-detail
+{
+    display: flex;
+    flex-direction: column;
+}
+.Barber-detail h4{
+
+
+font-size: medium;
+height: 40px;
+font-weight: bolder;
+  
+}
+.Barber-detail p
+{
+    color: gray;
+}
+.barber-image img
+{
+    outline: 1px solid rgb(255, 255, 255);
+  outline-offset: -8px;
+  
+}
+.team-work
+{
+  display: flex;
+  justify-content: center;
+}
+.card-2
+{
+    padding-left: 20px;
+}
+.left-image img
+{
+   
+    width: 600px;
+}
+.contact
+{
+    display: flex;
+    margin-top: 80px;
+  
+}
+.form-contact
+{
+    height: 600px;
+    padding-left: 60px;
+    margin-left: 0px;
+    width: 6000px;
+    background-color: #1d2434;
+    border: none;
+    
+     
+}
+.form-contact form
+{
+    margin-top: 60px;
+}
+.form-contact input 
+{
+    width: 6000px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #D5B981;
+    padding: 30px;
+    background-color: #1d2434;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    opacity: 1; /* Firefox */
+  }
+.form-contact button
+{
+    background-color: transparent; 
+    border: 1px solid #D5B981;
+    width: 200px;
+    height: 50px;
+    color: #D5B981;
+    margin-top: 35px;
+}
+{
+    color: #D5B981;
+}
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: gray;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: gray;
+  }
+  .head-name 
+  {
+    padding-right: 160px;
+    margin-top: 50px;
+  }
+  .Read  input
+  {
+      border: none;
+      margin-left: 1px;
+      margin-right: 10px;
+      padding-right: 1px;
+  }
+  .paragraphe
+  {
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  .icon-1 img
+  {
+    width: 30px;
+    padding-left: 120px;
+    outline: 0px solid white;
+    outline-offset: 0px;
+    adding-top: 8px
+  }
+  .icon-1 p
+  {
+    margin-top: -28px;
+  }
+  .blog-button
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .contact-icons img 
+  {
+      width: 25px;
+      color: gray;
+  }
+  .contact-icons 
+  {
+      display: flex;
+      padding-top: 5px;
+      margin-bottom: 10px;
+   
+  }
+  .column-1 
+  {
+    padding-left: 250px;
+    padding-top: 55px;
+  }
+  .column-1 h3 
+  {
+    padding-left: 7px ;
+    margin-bottom: 10px;
+    color: #D5B981;
+    margin-bottom: 30px;
+  }
+  .contact-icons p{
+    padding-left: 5px;
+    padding-top: 3px;
+    color: gray;
+    font-weight: bolder;
+  }
+  .end-page
+  {
+      background-color: #1d2434;
+      padding-top: 10px;padding-left: -5px;
+      display: flex;
+  }
+  .social-media img
+  {
+    width: 30px;
+    padding-left: 0px;
+    padding-right: px;
+    padding-top: 20px;
+  }
+  .contact-section
+  {
+      display: flex;
+  }
+  .special h3
+  {
+
+      padding-left: 250px;
+      padding-top: 55px;
+  }
+  .column-1 p{
+      color: gray;
+  }
+  .column-1 input
+  {
+  
+  
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    width: 800px;
+    height: 50px;
+    margin-top: 20px;
+  }
+.box-submit 
+{
+display: flex;
+position: absolute;
+}
+.box-submit button
+{ position: absolute;
+    top: 0;
+   
+    right: 0px;
+    z-index: 2;
+    border: 1px solid #1d2434;
+    top: 2px;
+    height: 30px;
+    cursor: pointer;
+    color: #1d2434;
+    background-color: #00000000;
+    width: 90px;
+    height: 52.2px;
+    margin-top: 19px;
+    
+
+    
+}
